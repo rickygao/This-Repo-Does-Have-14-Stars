@@ -21,3 +21,7 @@ There are several awesome implementations via different approaches. Try them! :h
 - WebHooks (AWS Lambda): [This-Repo-Has-X-Stars](https://github.com/iBug/This-Repo-Has-0-Stars);
 - GitHub Actions (nodejs): [This-repo-has-x-stars-y-forks-action](https://github.com/ouuan/This-repo-has-x-stars-y-forks-action);
 - GitHub Actions (curl, ours): [This-Repo-Has-X-Stars](https://github.com/RealPeha/This-Repo-Has-0-Stars).
+
+## Limitations
+
+Sadly, an `unstar` operation won't trigger a `watch` event for GitHub Actions. That is to say, the X cannot decrease. LOL, is it a blessing in disguise?
