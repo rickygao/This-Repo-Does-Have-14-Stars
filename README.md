@@ -5,7 +5,7 @@ The SIMPLEST-EVER "This-Repo-Has-X-Stars" implemented via [GitHub Actions](https
 ## Usage
 
 1. Fork this repo;
-2. Generate a [personal access tokens](https://github.com/settings/tokens) with "repo_public" scope, and copy it;
+2. Generate a [personal access tokens](https://github.com/settings/tokens) with "public_repo" scope, and copy it;
 3. Set the token as a secret named "ADMIN_TOKEN" in the "Settings -> Secret" tab of your forked repo;
 4. Star your own repo, check "StarWatcher" workflow runs, and refresh the repo page in a minute.
 
