@@ -20,7 +20,7 @@ There are several awesome implementations via different approaches. Try them! :h
 - Polling (original): [This-Repo-Has-X-Stars](https://github.com/RealPeha/This-Repo-Has-0-Stars);
 - WebHooks (AWS Lambda): [This-Repo-Has-X-Stars](https://github.com/iBug/This-Repo-Has-0-Stars);
 - GitHub Actions (nodejs): [This-repo-has-x-stars-y-forks-action](https://github.com/ouuan/This-repo-has-x-stars-y-forks-action);
-- GitHub Actions (curl, ours): [This-Repo-Has-X-Stars](https://github.com/RealPeha/This-Repo-Has-0-Stars).
+- GitHub Actions (curl, ours): [This-Repo-Has-X-Stars](https://github.com/rickygao/This-Repo-Does-Have-X-Stars).
 
 ## Limitations
 
