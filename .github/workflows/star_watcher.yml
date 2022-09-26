@@ -1,5 +1,3 @@
-# This is a basic workflow to help you get started with Actions
-
 name: StarWatcher
 
 on:
@@ -12,8 +10,9 @@ jobs:
     steps:
     - name: Rename the repo using REST API
       run: |
-        curl --request PATCH \
-        --url https://api.github.com/repos/${{ github.repository }} \
-        --header 'Authorization: Bearer ${{ secrets.ADMIN_TOKEN }}' \
-        --header "Accept: application/vnd.github.v3+json" \
-        --data '{"name": "This-Repo-Does-Have-${{ github.event.repository.stargazers_count }}-Stars"}'
+        curl \
+          --request PATCH \
+          --url https://api.github.com/repos/${{ github.repository }} \
+          --header 'Authorization: Bearer ${{ secrets.ADMIN_TOKEN }}' \
+          --header "Accept: application/vnd.github.v3+json" \
+          --data '{"name": "This-Repo-Does-Have-${{ github.event.repository.stargazers_count }}-Stars"}'
